@@ -1,5 +1,5 @@
-import { Button } from "@";
+import Button from "./type";
 
 export default () => {
-  return <Button>123</Button>;
+  return <Button></Button>;
 };

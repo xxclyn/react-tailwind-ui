@@ -14,9 +14,10 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "react-router-dom": "6",
     "tailwind-merge": "^2.4.0",
-    "clsx": "^2.1.1",
     "tailwindcss-animate": "^1.0.7",
     "vite-plugin-react-markdown": "^0.2.10"
   },
