@@ -53,11 +53,13 @@ const CardFooter = forwardRef(({ className, ...props }, ref) => (
 
 export default forwardRef(({ children, title, description, footer }, ref) => (
   <Card>
-    <CardHeader>
-      <CardTitle>{title}</CardTitle>
-      <CardDescription>{description}</CardDescription>
-    </CardHeader>
+    {title && (
+      <CardHeader>
+        <CardTitle>{title}</CardTitle>
+        {description && <CardDescription>{description}</CardDescription>}
+      </CardHeader>
+    )}
     <CardContent>{children}</CardContent>
-    <CardFooter>{footer}</CardFooter>
+    {footer && <CardFooter>{footer}</CardFooter>}
   </Card>
 ));

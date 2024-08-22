@@ -3,7 +3,7 @@ module.exports = {
   darkMode: ["class"],
   content: [
     "./lib/**/*.{js,jsx}",
-    "./example/**/*.{js,jsx}",
+    "./doc/**/*.{js,jsx}",
     "./src/**/*.{js,jsx}",
   ],
   prefix: "",

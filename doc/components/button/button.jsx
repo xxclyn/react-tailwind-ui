@@ -1,5 +1,9 @@
-import Button from "./type/example";
+import Type from "./type";
 
 export default () => {
-  return <Button></Button>;
+  return (
+    <div>
+      <Type></Type>
+    </div>
+  );
 };
