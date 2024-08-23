@@ -21,6 +21,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": resolve(__dirname, "lib"),
+      "@doc": resolve(__dirname, "doc"),
     },
   },
   build: {
